@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("kaaba-2217859_1280.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-blend-mode:darken;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cairo', sans-serif;
+}
+
+.content{
+    text-align: center;
+    background-color: rgba(0 0 0 / 80%);
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+.content h2{
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+a{
+    background-color: transparent;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 7px 14px;
+    color: green;
+    cursor: pointer;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    background-color: green;
+}
+
+/* arbre */
+
+.arbre{
+    text-align: center;
+    background-color: rgba(0 0 0 / 80%);
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+.arbre img{
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0 0 15px 0 rgba(255 255 255 / 20%);
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.arbre img:hover{
+    box-shadow: 0 0 30px 5px rgba(255 255 255 / 20%);
+}
