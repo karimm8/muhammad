@@ -11,3 +11,8 @@ img.addEventListener("dblclick",()=>{
   sp.style.display = "block";
 })
 
+
+
+
+
+
